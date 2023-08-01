@@ -1,0 +1,83 @@
+:root {
+    --bg-color: #F5F7FF; 
+    --font:#0A3706;
+    --iconcolor:#7E59FA;
+    --textcolor:#2718D6;
+    --iconbg:#ECEBFF;
+    --bghovercard:#FCF7F9;
+  }
+
+  .cardbox {
+    background-color: var(--bg-color);
+    position: relative;
+    height: 100%;
+    transform: translateY(0);
+    border: 3px solid transparent; /* Set initial border to transparent */
+    transition: transform 0.3s ease-out, border-color 0.3s ease-out, border-width 0.3s ease-out; /* Add the transition property for border */
+  }
+  
+  .cardbox:hover {
+    background-color: var(--bg-color);
+    position: relative;
+    height:50%;
+    /* transform: translateY(-50px);  */
+    border-color: #7E59FA; /* Change the border color on hover */
+    border-width: 5px; /* Adjust the border width on hover */
+  }
+  
+  
+  .cardbtn button {
+    position: absolute;
+    padding: 10px;
+    left: 30%;
+    top: 93%;
+    color: #F5F7FF;
+    background-color: #7E59FA;
+    text-align: center;
+    opacity: 0; /* Start with opacity set to 0 */
+    transition: 0.3s ease-in-out;
+    display: block;
+  }
+  
+  .cardbox:hover .cardbtn button {
+    display: block;
+    left: 30%;
+    top: 95%;
+    color: #F5F7FF;
+    background-color: #7E59FA;
+    opacity: 1; /* Change opacity to 1 on hover */
+    transition: 0.3s ease-in-out;
+  }
+  
+
+
+  .iconbox {
+    background-color: var(--iconbg);
+    position: relative;
+  }
+  
+  .iconbox::before {
+    background-color: var(--iconcolor);
+    content: '';
+    /* Add more styles for the pseudo-element here */
+  }  
+.content{
+    line-height: 23px;
+}
+  .content p{
+    font-weight: 600;
+    font-size: large;
+  }
+  .content h4{
+    font-weight: 700;
+  }
+
+  .trick {
+    background-color: #7E59FA;
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%;
+    color: #ECEBFF; 
+    padding: 4px; 
+  }
+  
