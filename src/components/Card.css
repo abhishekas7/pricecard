@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 :root {
     --bg-color: #F5F7FF; 
     --font:#0A3706;
@@ -7,20 +9,36 @@
     --bghovercard:#FCF7F9;
   }
 
+
+  
+  h1, h2, h3, p {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
   .cardbox {
-    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    display: block; 
     position: relative;
+    margin: 0 auto;
+    background-color: var(--bg-color);
     height: 100%;
     transform: translateY(0);
-    border: 3px solid transparent; /* Set initial border to transparent */
-    transition: transform 0.3s ease-out, border-color 0.3s ease-out, border-width 0.3s ease-out; /* Add the transition property for border */
+    border: 3px solid transparent; 
+    transition: transform 0.3s ease-out, border-color 0.3s ease-out, border-width 0.3s ease-out;
+  }
+  .cardbox::before {
+    width: 20px;
+    height: 20px;
+    background-color: hsl(0, 64%, 46%);
+    border: 1px dashed hsl(0, 0%, 66.7%);
   }
   
   .cardbox:hover {
     background-color: var(--bg-color);
     position: relative;
     height:50%;
-    /* transform: translateY(-50px);  */
+    transform: translateY(-50px); 
     border-color: #7E59FA; /* Change the border color on hover */
     border-width: 5px; /* Adjust the border width on hover */
   }
@@ -29,27 +47,33 @@
   .cardbtn button {
     position: absolute;
     padding: 10px;
-    left: 30%;
-    top: 93%;
+    left: 50%;
+    font-size: 14px;
+    top: 98%;
+    transform: translate(-50%, -50%);
     color: #F5F7FF;
     background-color: #7E59FA;
     text-align: center;
-    opacity: 0; /* Start with opacity set to 0 */
+    opacity: 1;
     transition: 0.3s ease-in-out;
     display: block;
   }
   
+  
   .cardbox:hover .cardbtn button {
     display: block;
-    left: 30%;
-    top: 95%;
+    left: 50%; 
+    top: 100%; 
+    transform: translate(-50%, -50%); 
     color: #F5F7FF;
     background-color: #7E59FA;
     opacity: 1; /* Change opacity to 1 on hover */
     transition: 0.3s ease-in-out;
   }
   
-
+.iconw{
+    font-size: 14px;
+}
 
   .iconbox {
     background-color: var(--iconbg);
@@ -62,14 +86,15 @@
     /* Add more styles for the pseudo-element here */
   }  
 .content{
-    line-height: 23px;
+    line-height: 15px;
 }
   .content p{
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 14px;
     font-size: large;
   }
   .content h4{
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .trick {
@@ -79,5 +104,9 @@
     border-radius: 50%;
     color: #ECEBFF; 
     padding: 4px; 
+  }
+
+  .duration p{
+    font-size: 5px;
   }
   

@@ -9,7 +9,7 @@ import { Row } from 'react-bootstrap'
 function Card(props) {
   return (
     <div>
-     <div className='cardbox rounded-2 p-4 mt-4 w-100 w-md-75'>
+     <div className='cardbox rounded-2 p-4 mt-4 w-75 w-md-75'>
     <Row>
         <div className='d-flex flex-row'>
             <div className='col-3'> 
@@ -34,7 +34,7 @@ function Card(props) {
         </div>
     </Row>
     <Row>
-    <div className='d-flex flex-row'>
+    <div className='d-flex flex-row duration'>
             <div className='p-2 d-flex'>
    <h1 className='pt-3 pt-md-1 fs-1'>${props.price}</h1> <p  className="fs-4 pt-3">/{props.duration}</p>
             </div>
