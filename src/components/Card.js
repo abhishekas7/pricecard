@@ -20,7 +20,7 @@ function Card(props) {
             <div className='col-9'>
                 <div className='content p-2'>
                         <p>{props.icontitle}</p>
-                        <h4>{props.variant}</h4>
+                        <h5>{props.variant}</h5>
                 </div>
             </div>
         </div>
@@ -29,13 +29,13 @@ function Card(props) {
     <Row>
         <div className='d-flex flex-row'>
             <div className='p-2'>
-    <p  className="fs-6">{props.details}</p>
+    <p  className="fs-6 texts">{props.details}</p>
             </div>
         </div>
     </Row>
     <Row>
-    <div className='d-flex flex-row duration'>
-            <div className='p-2 d-flex'>
+    <div className='d-flex flex-row '>
+            <div className='p-2 d-flex duration'>
    <h1 className='pt-3 pt-md-1 fs-1'>${props.price}</h1> <p  className="fs-4 pt-3">/{props.duration}</p>
             </div>
         </div>
@@ -44,14 +44,14 @@ function Card(props) {
     <div className='d-flex flex-row '>
             <div className='pt-2 d-flex flex-column'>
             <div className='col-12'>
-            <h5 className='ms-2 text-left'>What’s included</h5>
+            <h6 className='ms-2 text-left whatsh6'>What’s included</h6>
             </div>
             <div className=' ms-2 pt-4 col-12 pt-0'>
                 <Row>
                    <div className='d-flex flex-row  mt-2'>
                    <div className='iconw'>
                         <div className='trick text-center'>
-                        <FontAwesomeIcon icon={faCheck} style={{color: "#ffffff",}} />                        </div>
+                        <FontAwesomeIcon icon={faCheck} style={{color: "#ffffff",backgroundColor:"#7e59fa",padding:'10px',borderRadius: '50%'}} />                        </div>
                     </div>
                     <div className='iconw px-4'>
                         <p>All analytics features</p>
@@ -60,7 +60,7 @@ function Card(props) {
                    <div className='d-flex flex-row  mt-2'>
                    <div className='iconw'>
                         <div className='trick text-center'>
-                        <FontAwesomeIcon icon={faCheck} style={{color: "#ffffff",}} />                        </div>
+                        <FontAwesomeIcon icon={faCheck} style={{color: "#ffffff",backgroundColor:"#7e59fa",padding:'10px',borderRadius: '50%'}} />                        </div>
                     </div>
                     <div className='iconw px-4'>
                         <p>All analytics features</p>
@@ -69,7 +69,7 @@ function Card(props) {
                    <div className='d-flex flex-row  mt-2'>
                    <div className='iconw'>
                         <div className='trick text-center'>
-                        <FontAwesomeIcon icon={faCheck} style={{color: "#ffffff",}} />                        </div>
+                        <FontAwesomeIcon icon={faCheck} style={{color: "#ffffff",backgroundColor:"#7e59fa",padding:'10px',borderRadius: '50%'}} />                        </div>
                     </div>
                     <div className='iconw px-4'>
                         <p>All analytics features</p>

@@ -93,18 +93,28 @@
     font-size: 14px;
     font-size: large;
   }
-  .content h4{
+  .content h5{
+    font-weight: 600;
+  }
+  .whatsh6{
     font-weight: 600;
   }
 
-  .trick {
-    background-color: #7E59FA;
-    width: 35px;
-    height: 35px; 
+  /* .trick {
+    background-color: #7e59fa;
     border-radius: 50%;
-    color: #ECEBFF; 
-    padding: 4px; 
+    text-align: center;
+    color: #ecebff;
+    height: 35px;
+    padding: 8px;
+    width: 35px;
+  } */
+
+  .cardbox p{
+    font-size: 14px;
   }
+
+
 
   .duration p{
     font-size: 5px;
