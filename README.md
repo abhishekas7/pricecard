@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![Screenshot 2023-08-03 103123](https://github.com/abhishekas7/pricecard/assets/94697425/4b7897ed-77d1-49b9-8447-daa94f17c78b)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -62,6 +64,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
